@@ -1,18 +1,20 @@
-// $(document).ready(function () {
-//   console.log("ready!");
-// });
+$(document).ready(function () {
 
-// $("#tweet - text").on('input', function () {
-//   const counter = $(this).value().length;
-//   const characters = 140 - counter;
-//   $(".counter").text(characters);
+  $("#tweet-text").on('input', function () {
+    const counter = $(this).val().length;
+    console.log(counter);
+    const characters = 140 - counter;
+    $(".counter").text(characters);
 
-//   if (characters < 0) {
-//     $(".counter").css("red");
-//   } else {
-//     $(".counter").css("black");
-//   }
-// });
+    if (characters < 0) {
+      $(".counter").css("color", "red");
+    } else {
+      $(".counter").css("color", "black");
+    }
+  });
+  console.log("ready!");
+});
+
 
 
 // $("#btn").on('click', function () {
