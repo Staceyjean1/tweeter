@@ -1,0 +1,22 @@
+header {
+  height: 400px;
+  width: 100%;
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content:baseline;
+  align-items:center;
+  text-align: flex-start;
+
+  background-color: #e4e3f85a;
+}
+
+img{
+  height: 200px;
+  /* background-color: #e4e3f85a; */
+}
+/* h2 {
+  justify-content: flex-start;
+  height: 100px;
+  background-color: #e4e3f85a;
+} */

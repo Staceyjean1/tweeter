@@ -3,6 +3,17 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+
+ link {index: .html;}
+
+ main {
+  width: 90%;
+  align-items: center;
+  background-color: #e4e3f85a;
+
+ }
+
+  
 html {
   box-sizing: border-box;
 }
@@ -13,12 +24,22 @@ html {
 /*
  * Global layout stuff
  */
+nav {
+  color:#FFFFFF;
+  font-family: 'Bungee', sans-serif;
+}
+
+header {
+  font-family: 'Source San Pro', sans-serif;
+}
+
 
 body {
   color: #545149;
   background-color: #f4f1ec;
+  font: 'Source Sans Pro', sans-serif;
   font-size: 24px;
-}
+};
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
