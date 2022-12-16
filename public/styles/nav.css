@@ -1,49 +1,4 @@
-/* nav {
-  background-color: #4056A1;
-  color: #FFFFFF;
-  height: 145px;
-  width: 100vw;
-  justify-content: space-between;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  padding: 0 1.5em;
-  top: 0;
-  left: 0;
-}
 
-nav span {
-  font-family: 'Bungee', cursive;
-}
-
-.right {
-  font-size: medium
-}
-
-.icon {
-  color: red;
-  text-align: center;
-  margin-top: 5px;
-}
-
-.right:hover {
-  cursor: pointer;
-}
-
-.right:hover .icon {
-  position: relative;
-  animation: bounce 0.5s infinite linear;
-}
-@keyframes bounce {
-  0% { top: 0; }
-  50% { top: -0.2em; }
-  70% { top: -0.3em; }
-  100% { top: 0; }
-} */
-
-/* tweeter title (head)  */
-
-  /* write a new tweet button */
   nav {
     display: flex;
     justify-content: space-between;
