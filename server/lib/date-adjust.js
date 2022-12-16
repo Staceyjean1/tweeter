@@ -8,6 +8,7 @@ let tweetsJSON = require('../data-files/initial-tweets.json');
 // Write recent dates to initial-tweets.json
 // Specifically sync to not interfere with student functions
 module.exports = () => {
+  console.log('date adjust');
   // One day in milliseconds is 86400000ms or...
   // oneDayMs = 1000 milliseconds * 60 seconds * 60 minutes * 24 hours.
   const oneDayMs = 1000 * 60 * 60 * 24

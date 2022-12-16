@@ -4,7 +4,14 @@
  * Do not modify these two selectors, please
  */
 
- link {index: .html;}
+ html {
+  box-sizing: border-box;
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
  main {
   width: 90%;
@@ -36,11 +43,18 @@ header {
 
 body {
   color: #545149;
-  background-color: #f4f1ec;
+  background-color: transparent;
   font: 'Source Sans Pro', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
 };
+header {
+  border: 2px solid black;
+}
+.container {
+  border: 2px solid black
+}
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+div {
+  display: flex;
+  justify-content: space-between;
+}

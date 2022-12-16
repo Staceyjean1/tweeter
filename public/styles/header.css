@@ -1,22 +1,37 @@
-header {
+/* header {
   height: 400px;
   width: 100%;
-  padding: 4em;
+  padding: 6em;
   display: flex;
   flex-direction: column;
   justify-content:baseline;
   align-items:center;
   text-align: flex-start;
 
-  background-color: #e4e3f85a;
+  background-color: #c7c5f45a;
 }
 
 img{
   height: 200px;
+  align-items: align left; */
   /* background-color: #e4e3f85a; */
-}
+/* } */
 /* h2 {
   justify-content: flex-start;
   height: 100px;
   background-color: #e4e3f85a;
 } */
+
+.header {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+  height: 400px;
+  width: 100vw;
+  color: #ffffff;
+  background-color:#5671ca;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+}

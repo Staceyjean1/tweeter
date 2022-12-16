@@ -1,0 +1,42 @@
+.main-box {
+  border: 2px solid black;
+  margin-top: 1em;
+  padding: 1em;
+  box-shadow: 4px 4px 4px gray;
+}
+
+.main-box:hover {
+  box-shadow: 8px 8px 8px gray;
+}
+
+.main-box header,
+.main-box footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-box header div {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.main-box footer div {
+  width: 10%;
+  border: 1px black
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: .6em;
+}
+
+.main-box footer {
+  border-top: 2px solid black;
+}
+
+.main-box footer div i:hover {
+  color: rgb(32, 41, 218);
+}
